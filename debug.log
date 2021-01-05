@@ -1,0 +1,14 @@
+[1227/094238.865:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1229/101504.668:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0101/102831.009:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0101/200733.331:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0102/092221.912:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0102/140141.024:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[0102/140141.024:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[0102/140141.024:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[0102/140141.117:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0102/140141.117:ERROR:process_info.cc(551)] ReadProcessData failed
+[0102/140141.117:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0102/140141.117:ERROR:process_info.cc(551)] ReadProcessData failed
+[0102/140141.117:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0102/140141.117:ERROR:process_info.cc(551)] ReadProcessData failed
