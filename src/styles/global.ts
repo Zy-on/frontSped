@@ -9,18 +9,12 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #222831;
+    background-color: #fff;
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button {
-    font: 16px Roboto, sans-serif;
-  }
-
-  #root {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 40px 20px;
+    font: 16px Poppins, sans-serif;
   }
 
   button {
