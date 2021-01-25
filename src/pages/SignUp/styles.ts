@@ -2,15 +2,21 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.div`
-  width: calc(100% - 30px);
-  max-width: 100%;
+  padding-left: 20px;
 `;
 
 export const Content = styled.div`
   display: flex;
-  padding: 85px 0px 0px 160px;
+  padding: 75px 0px 0px 120px;
 `;
-export const Form = styled.form`
+
+export const GoBackButton = styled.button`
+  border: none;
+  background-color: transparent;
+  padding-top: 50px;
+`;
+
+export const Form = styled.div`
   margin-left: 65px;
   margin-right: 40px;
 
@@ -29,7 +35,6 @@ export const RegisterForm = styled.form`
   input {
     width: 62%;
     display: block;
-    margin-bottom: 25px;
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 40px;
@@ -66,6 +71,36 @@ export const RegisterForm = styled.form`
       background: ${shade(0.2, '#6dabe4')};
     }
   }
+`;
+
+export const NameError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+
+export const EmailError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+
+export const PasswordError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+
+export const ConfirmPasswordError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+
+export const TermsError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
 `;
 
 export const TermsCheckBox = styled.div`

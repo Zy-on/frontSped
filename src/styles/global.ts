@@ -14,7 +14,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 16px Poppins, sans-serif;
+    font: 13.8px Poppins, sans-serif;
   }
 
   button {
