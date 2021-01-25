@@ -2,20 +2,23 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.div`
-  width: calc(100% - 30px);
-  max-width: 100%;
   padding-top: 67px;
   padding-bottom: 87px;
-  padding-left: 160px;
+  padding-left: 100px;
 `;
 
 export const Content = styled.div`
   display: flex;
 `;
 
+export const GoBackButton = styled.button`
+  border: none;
+  background-color: transparent;
+`;
+
 export const SignInImg = styled.div`
   display: block;
-  margin-left: 90px;
+  margin-left: 130px;
   margin-right: 60px;
   margin-top: 10px;
   text-align: center;
@@ -30,7 +33,7 @@ export const Figure = styled.div`
   margin-bottom: 25px;
 `;
 
-export const Form = styled.form`
+export const Form = styled.div`
   margin-right: 90px;
   margin-left: 120px;
   font-size: 13.8px;
@@ -47,7 +50,7 @@ export const Form = styled.form`
 `;
 
 export const RegisterForm = styled.form`
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 
   svg {
     position: absolute;
@@ -57,7 +60,7 @@ export const RegisterForm = styled.form`
   input {
     flex: 1;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 40px;
@@ -76,6 +79,23 @@ export const RegisterForm = styled.form`
     }
   }
 
+  a {
+    color: #222;
+  }
+`;
+
+export const EmailError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+
+export const PasswordError = styled.div`
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #c53030;
+`;
+export const SignInButton = styled.div`
   button {
     height: 50px;
     background: #6dabe4;
@@ -83,7 +103,7 @@ export const RegisterForm = styled.form`
     border: none;
     padding: 15px 39px;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 20px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
@@ -100,7 +120,7 @@ export const RegisterForm = styled.form`
 export const RememberCheckBox = styled.div`
   display: flex;
   margin-right: 190px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
   input {
     position: absolute;
@@ -117,8 +137,8 @@ export const SocialLogin = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
-  margin-right: 50px;
+  padding-top: 35px;
+  margin-right: 110px;
 `;
 
 export const FacebookButton = styled.button`
